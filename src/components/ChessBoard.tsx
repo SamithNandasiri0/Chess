@@ -338,8 +338,8 @@ export const ChessBoard: React.FC<ChessBoardProps> = ({ onGameEnd }) => {
             className={`
               relative z-10 font-bold drop-shadow-lg
               ${piece.color === 'w' 
-                ? 'text-white/90 filter drop-shadow-[0_2px_6px_rgba(0,0,255,1)] text-7xl ' 
-                : 'text-black filter drop-shadow-[0_2px_4px_rgba(255,0,0,1)] text-7xl'
+                ? 'text-white/90 filter drop-shadow-[0_2px_6px_rgba(0,0,255,1)]' 
+                : 'text-black filter drop-shadow-[0_2px_4px_rgba(255,0,0,1)]'
               }
             `}
             initial={{ scale: 0, rotateY: -180 }}
